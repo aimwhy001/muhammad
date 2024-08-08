@@ -2,7 +2,70 @@
 <html>
     <head>
         <title>folio</title>
-        <link rel="stylesheet" href="style.css">
+        <style>
+        body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(209, 198, 209);
+    
+}
+
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+}
+
+nav > ul {
+    display: flex;
+    gap: 1rem;
+    padding-right:20rem;
+}
+
+button{
+    background-color: rgb(231, 29, 231);
+    color: white;
+    border: 1px solid rgb(175, 1, 175);
+    border-radius:8px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+   
+}
+
+span{
+    color: rgb(187, 4, 187);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 7%;
+    padding-inline: 12rem;
+
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 40px;
+    border-left: 20px;
+    text-align:center;
+}
+.button1{
+    background-color: white;
+    color: rgb(180, 4, 180);
+}
+</style>
     </head>
     <body>
         <div>
